@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Treasure Hunt Adventure</title>
+    <link rel="stylesheet" type="text/css" href="main.css">
+</head>
+<body>
+
+    <div id="container">
+        <h1>🗺️ Treasure Hunt Adventure 🏆</h1>
+
+        <p class="intro">
+            In a mystical forest, you found a treasure map that led you to three hidden treasures.  
+            Here are the conditions you must solve to claim your reward:
+        </p>
+
+        <div class="story-box">
+            <p>📦 Condition 1: The biggest number guards the treasure.</p>
+            <p>🔠 Condition 2: To unlock, you need to find the [nth] letter of the alphabet.</p>
+            <p>🛤️ Condition 3: The biggest number determines how many paths you must take.</p>
+            <p>⏳ Each path takes [x] minutes, depending on your stamina.</p>
+        </div>
+
+        <button class="start-btn" onclick="generateNumbers()">🚀 Start Adventure!</button>
+
+        <div class="result">
+            <div class="box" id="biggest">🛡️ <strong>Biggest Number:</strong> <span></span></div>
+            <div class="box" id="letter">🔡 <strong>Letter:</strong> <span></span></div>
+            <div class="box" id="time">⏳ <strong>Time:</strong> <span></span></div>
+        </div>
+
+    </div>
+
+    <script src="main.js"></script>
+
+</body>
+</html>
